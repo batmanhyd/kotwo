@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28900444'))
 API_HASH = environ.get('API_HASH', '7343be63958388e1d88c2961efe5a9e6')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6792063167:AAHLFawlIhcq3af37Eok3JmhoMFCO_EIGVU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6622811670:AAE72KucgGLfCRJ8ieKa8VVgtMqNaO0jFyk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002120388756'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001899266690'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397893493').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001648519555').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -48,7 +48,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aditya3:0yzxfmfbEuQjL1fz@cluster0.uxteiys.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ajnetwork1:ySypMfTFQpuoUEHk@cluster0.rk3tmfk.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "ajnetwork")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -65,8 +65,8 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'aj_adminn_bot') # owner username
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+I_jIzjcADWE5N2Zl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AjCinemassOfcl')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_linkzz/13')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_open_linkzz/13')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_linkzz/16')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/how_to_open_linkzz/16')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+wzB-8NWd6vdhOTI1') # Support Chat Link Without https:// or @
 
 # True Or False
@@ -125,7 +125,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://djaloktwo.onrender.com")
+URL = environ.get("URL", "https://aware-colline-ajconemis-bcb67c30.koyeb.app/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
