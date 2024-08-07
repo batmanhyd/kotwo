@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28900444'))
 API_HASH = environ.get('API_HASH', '7343be63958388e1d88c2961efe5a9e6')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6622811670:AAE72KucgGLfCRJ8ieKa8VVgtMqNaO0jFyk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6792063167:AAHLFawlIhcq3af37Eok3JmhoMFCO_EIGVU")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -49,7 +49,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ajnetwork1:ySypMfTFQpuoUEHk@cluster0.rk3tmfk.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "ajnetwork")
+DATABASE_NAME = environ.get('DATABASE_NAME', "ajnetwoihiurk")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Premium And Referal Settings
